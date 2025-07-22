@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Student Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f0f2f5;
+        }
+
+        .card:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transform: scale(1.02);
+            transition: 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">🎓 Student System</a>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Welcome to the Student Management System</h2>
+
+        <div class="row g-4 justify-content-center">
+
+            <div class="col-md-3">
+                <div class="card text-center p-3">
+                    <h5 class="card-title">➕ Add Student</h5>
+                    <p class="card-text">Register a new student to the system.</p>
+                    <a href="add-student.html" class="btn btn-primary">Go</a>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center p-3">
+                    <h5 class="card-title">📘 Add Course</h5>
+                    <p class="card-text">Add a new course for students.</p>
+                    <a href="add-course.html" class="btn btn-success">Go</a>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center p-3">
+                    <h5 class="card-title">📝 Enroll Student</h5>
+                    <p class="card-text">Enroll a student in a course .</p>
+                    <a href="enroll.html" class="btn btn-warning">Go</a>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center p-3">
+                    <h5 class="card-title">📄 View Students</h5>
+                    <p class="card-text">See a list of all registered students.</p>
+                    <a href="view-students.html" class="btn btn-secondary">Go</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
